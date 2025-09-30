@@ -3,14 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- get embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- style -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Bài 90: Figma to HTML</title>
   </head>
-  <body>
-    <h1>figma to css</h1>
-    <h2>demo</h2>
+  <body style="height: 10000px">
+    <!-- header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- logo -->
+          <img src="./assets/img/Logo.svg" alt="Lesson" />
+          <!-- nav -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">Course</a>
+              </li>
+              <li>
+                <a href="#!">Pricing</a>
+              </li>
+              <li>
+                <a href="#!">Review</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- btn action -->
+          <div class="action">
+            <a href="#!" class="btn btn-sign-up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
