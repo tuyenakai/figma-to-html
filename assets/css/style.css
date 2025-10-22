@@ -399,7 +399,7 @@ a {
   background-color: var(--primary-color);
   cursor: default;
 }
-/* =============features============ */
+/* =============fetures 1============ */
 .fetures {
   margin-top: 135px;
   padding: 65px 0;
@@ -434,9 +434,26 @@ a {
   line-height: 1.75;
 }
 .fetures .cta-btn {
-  width: 145px;
+  width: 137px;
   height: 50px;
   margin-top: 32px;
   line-height: 28px;
+  font-size: 1.6rem;
+  min-width: 160px;
+  text-align: center;
   background-color: var(--primary-color);
+}
+/* =============fetures 2============ */
+.fetures-2nd .body {
+  flex-direction: row-reverse;
+}
+.fetures-2nd {
+  margin-top: 70px;
+}
+.fetures-2nd .content {
+  width: 49%;
+}
+.fetures-2nd .img img {
+  width: 470px;
+  height: 440px;
 }
