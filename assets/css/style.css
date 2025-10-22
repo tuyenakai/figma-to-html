@@ -343,8 +343,14 @@ a {
   padding: 96px 0px;
   background: #2e2100;
 }
-.feedback-item {
+.feedback-list {
   display: flex;
+  overflow: hidden;
+}
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
 }
 .feedback-item .avatar {
   width: 72px;
