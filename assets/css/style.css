@@ -399,3 +399,44 @@ a {
   background-color: var(--primary-color);
   cursor: default;
 }
+/* =============features============ */
+.fetures {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.fetures .body {
+  display: flex;
+  justify-content: space-between;
+}
+.fetures .images {
+  display: flex;
+  gap: 30px;
+}
+.fetures .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.fetures .lower {
+  margin-top: 34px;
+}
+.fetures .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fetures .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.fetures .cta-btn {
+  width: 145px;
+  height: 50px;
+  margin-top: 32px;
+  line-height: 28px;
+  background-color: var(--primary-color);
+}
